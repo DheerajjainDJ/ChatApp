@@ -6,7 +6,7 @@ import { useStyles } from "./chatStyles";
 import Header from "./Header/Header";
 import ChatBox from "./ChatBox/ChatBox";
 
-let ENDPOINT = "https://lets-chat-react-app.herokuapp.com/";
+let ENDPOINT = "https://lets-chat-react-app.up.railway.app/";
 let socket;
 const Chat = () => {
   const { name, room } = useParams();
